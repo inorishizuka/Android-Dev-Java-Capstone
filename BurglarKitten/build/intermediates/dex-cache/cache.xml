@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_dcffd1fd7d1f706a681e8e826ecf319a657adf88\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_a69a950832dd4f3cc56090dbaab34d752cd5f76d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_cfa800de85f2a17407ddd17c8e019c6f6ac3d44b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_7d13e4131222b29410c749986a291effaa4b9e83\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_94153557df896241812229cecf47c72cbead81a9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_303bbd786ce96123d9f21d896e5289c9238ab48b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fdb460be02c617f03aa5d5e42206f0c2116628bd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_b7d86d948bf032d5c225c7f548a13f465a8484e8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_238db544396880ffa17075eaab381fb79276de8c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_ff39426ff1e9fb4b13f2c7315886758857c3a4b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="74013ec4a0395e8db9a6290b74d5d24feeadf9e6">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c125fcd46c2f92ddf92dfcf021a2e30d0aee72ab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_5f0c601d4c77ea39ccc468ef5140f7ace5c6646e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_d64684efff9f4c0c784390c31ca6400baad68f0a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_13c328d3b448983b33b4aed9856f0271d8dffb8f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_d504a7ec6d1325a4d716c54660062cd07f44226b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8c917c71860d0f5432e27655a96e0237955bba49">
+        <dex dex="C:\Users\Mo\AndroidStudioProjects\BurglarKitten\BurglarKitten\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_df58bccd5233311270c93d39c0c2212be2bb1f70\classes.dex" />
+    </item>
+
+</items>

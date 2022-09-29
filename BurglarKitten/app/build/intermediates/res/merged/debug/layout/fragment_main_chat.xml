@@ -1,0 +1,105 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#616161"
+    android:clickable="true"
+    tools:context="com.example.itcapstone.burglarkitten.MainChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/original_kitten_chat_bubble"
+            android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:id="@+id/header"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/username_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLength="7"
+            android:hint="Set your Username"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="textShortMessage"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:id="@+id/userButton"
+            android:onClick="onChooseUserClick"
+            android:elevation="8dp"
+            android:translationZ="8dp"
+            />
+
+    </LinearLayout>
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onLoginButtonClick"
+        android:visibility="invisible"
+        android:clickable="false" />
+-->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/footer"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:translationZ="8dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/message_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Send a Message"
+            android:inputType="textShortMessage"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendButton"
+            android:onClick="onSendButtonClick"
+            android:elevation="8dp"
+            android:translationZ="8dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

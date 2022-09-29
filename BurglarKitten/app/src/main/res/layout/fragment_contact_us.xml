@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616161"
+    android:clickable="true"
+    tools:context="com.example.itcapstone.burglarkitten.ContactUs">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/original_kitten_contact_bubble"
+        android:scaleType="fitCenter"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616161"
+    android:id="@+id/contactContent"
+    android:layout_below="@id/imageView3"
+    android:clickable="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#616161"
+        android:clickable="true"
+
+        android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/name_hint"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_marginBottom="8dp"
+        android:gravity="top|left"
+        android:minLines="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/comment_hint"
+        android:background="@color/background_floating_material_dark"
+        android:windowSoftInputMode="adjustPan"
+        android:inputType="text|textMultiLine"
+         />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:hint="@string/address_hint"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editCity"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/city_hint"
+            android:inputType="text"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/editZipCode"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/zip_hint"
+            android:layout_weight="1"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/editState"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/state_hint"
+            android:layout_weight="1"
+            android:inputType="text"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/register_button"
+        android:elevation="8dp"
+        android:id="@+id/buttonSubmit"
+        android:layout_gravity="center_horizontal"
+
+        android:onClick="submitRegistration"
+        />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

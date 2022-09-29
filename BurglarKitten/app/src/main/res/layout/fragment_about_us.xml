@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.itcapstone.burglarkitten.AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#616161"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            android:elevation="8dp"
+            android:layout_marginBottom="16dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:scaleType="fitStart"
+                    android:paddingTop="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/burk_logo3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingTop="25dp"
+                    android:gravity="center_horizontal"
+                    android:text="About Us"
+                    android:id="@+id/textView2"
+                    android:textSize="48dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@android:color/darker_gray">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="4dp"
+                    android:text="@string/AboutUsDescription"
+                    android:textSize="32dp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</FrameLayout>

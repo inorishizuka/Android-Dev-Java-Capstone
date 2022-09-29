@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Burglar Kitten</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //Strings for About Us
+    <string name="AboutUsDescription">Burglar Kitten is a joint collaboration project of multiple teams from Valencia College.  It was established in summer 2016.\n\n App created by\n Team MOKY </string>
+
+    //Strings for Main page
+    <string name="QuizGameButton">Quiz Game</string>
+    <string name="AboutUsButton">About Us</string>
+    <string name="ContactUsButton">Contact Us</string>
+    <string name="ChatButton">Chat</string>
+    <string name="WelcomeMessage">Welcome to the Burglar Kitten App.\n\n<b>Breaking News:</b> Reports of feline figures in a heist at a local milk factory.</string>
+
+    //Strings for Mini Game Menu
+
+    //Strings for Contact Us
+    <string name="name_hint">Name</string>
+    <string name="comment_hint">Comment</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_hint">Email</string>
+    <string name="address_hint">Street Address</string>
+    <string name="register_button">Submit</string>
+    <string name="zip_hint">Zip Code</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+</resources>
