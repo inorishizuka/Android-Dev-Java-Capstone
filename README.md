@@ -1,1 +1,2 @@
-# Android-Dev-Java-Capstone-
+# Android-Dev-Java-Capstone
+Valencia College Software Engineering Capstone
